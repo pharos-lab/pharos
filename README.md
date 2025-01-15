@@ -1,5 +1,36 @@
-# Vue 3 + Vite
+# Vue js component library
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+I want to create a vue component library for other to use.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Requirement
+
+- use vue's composition api
+- use script 
+- create a plugin the user will use 
+- use heroicon for possible use of icon
+
+## Goal
+
+- this library should be easy to use
+- it is customizable (see customisation section)
+
+## customization
+
+- the user will give an object to the plugin 's option for customize the library
+
+### options
+
+user will be able to customize:
+
+- the colors:
+    - primary
+    - secondary
+    - danger 
+    - sucess
+    - info
+- for each component:
+    - padding
+    - margin
+    - border
+    - etc
+
